@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw82-web"
+version = "0.1.0"
+description = ""
+authors = ["HelenNad <htkachenko88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw82_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pika = "^1.3.2"
+mongoengine = "^0.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
